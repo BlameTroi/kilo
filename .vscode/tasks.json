@@ -9,7 +9,11 @@
 				"-g",
 				"${file}",
 				"-o",
-				"${fileDirname}/${fileBasenameNoExtension}"
+				"${fileDirname}/${fileBasenameNoExtension}",
+				"-Wall",
+				"-Wextra",
+				"-pedantic",
+				"-std=c99"
 			],
 			"options": {
 				"cwd": "${workspaceFolder}"
