@@ -10,7 +10,7 @@
       "request": "launch",
       "program": "${fileDirname}/${fileBasenameNoExtension}",
       "args": [
-        "kilo.c"
+        "kilo"
       ],
       "stopAtEntry": true,
       "cwd": "${workspaceFolder}",
